@@ -6,7 +6,6 @@ def main():
     LIVES = 7
     word = choice(word_list) # Selects a random word from the list.
     preview_list = list('_' * len(word))
-    print(word)
     print("Welcome to Hangman")
     print(lives_visual_dict[LIVES])
     while LIVES > 0:
